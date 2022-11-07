@@ -2,12 +2,17 @@
 name = "silly_wars"
 version = "0.1.0"
 edition = "2021"
+keywords = ["ggez", "graphics", "2D", "game", "engine"]
+authors = [
+   "Chris Harty <ascii1011@gmail.com>",
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
 ggez = "0.7.0"
 rand = "0.8.5"
+glam = { version = "0.21.3", features = ["mint"] }
 strum = "0.24"
 strum_macros = "0.24"
 serde = {version="1.0.45", features=["derive"]}
